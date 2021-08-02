@@ -1,0 +1,13 @@
+{
+  "scripts": {
+    "build": "NODE=production postcss base.css -o build/styles.css && copyfiles index.html build",
+    "dev": "postcss base.css -o styles.css && live-server . --port=8080"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.3.1",
+    "copyfiles": "^2.4.1",
+    "live-server": "^1.2.1",
+    "postcss-cli": "^8.3.1",
+    "tailwindcss": "^2.2.7"
+  }
+}
