@@ -11,7 +11,10 @@ module.exports = {
       colors: {
         primary: '#FDF6E3',
         'accent-light': '#EEE8D5'
-      }
+      },
+      maxWidth: {
+        table: '2002px',
+      },
     },
   },
   variants: {

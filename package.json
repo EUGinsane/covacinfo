@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "build": "NODE=production postcss base.css -o build/styles.css && copyfiles index.html build",
+    "build": "NODE=production postcss base.css -o build/styles.css && copyfiles index.html build && copyfiles vn.png build && copyfiles us.png build",
     "dev": "postcss base.css -o styles.css && live-server . --port=8080"
   },
   "devDependencies": {

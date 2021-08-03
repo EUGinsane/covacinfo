@@ -3,5 +3,9 @@
 @tailwind utilities;
 
 td {
-    padding: 16px
+  padding: 16px;
+}
+
+tr {
+  border-width: 2px;
 }
